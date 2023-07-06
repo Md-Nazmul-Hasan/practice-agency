@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navbar-section */
+
+.brand-logo{
+    width: 170px;
+}
+@media screen and (max-width: 600px) {
+   .brand-logo{
+    width: 120px;
+   }
+  }
+
+.c-img{
+    width: auto;
+    object-fit: cover;
+    filter: blur(5px);
+    filter: grayscale(20%);
+    filter: brightness(0.5);
+}
+@media only screen and (min-width: 768px) {
+    
+     .slider-section{
+        width: 100%;
+        height: 800px;
+         overflow: hidden;        
+     }  
+     .c-img{
+        width: 100%;
+        height: 800px;
+        object-fit:cover;
+        } 
+  }
+
+/* card Img Hover */
+
+#card-img{
+    filter: blur(2px);
+    filter: grayscale(70%);
+    filter: brightness(0.8);   
+}
+#card-img:hover{
+    filter: blur(0px);
+    filter: grayscale(100%);
+    filter: brightness(1);
+    transform: all ease;    
+}
+/* Start paralax content */
+
+.paralax-container{
+    width: 100%;
+    height: 300px;
+    background-image: url('/img/paralax\ 22.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
+    z-index: -999px;
+}
+@media screen and (max-width: 600px) {
+    .paralax-container{
+        width: 100%;
+        height: 150px;
+    }
+  }
+.paralax-content{
+    padding: 50px;
+    text-align: center;
+}
+.paralax-content h1{
+    color: rgb(255, 255, 255) !important;
+}
+.paralax-content h2{
+    color: azure !important;
+    font-size: medium !important; 
+}
+/*End paralax one content */
+
+/* start paralax content two */
+
+.paralax-container-two{
+    width: 100%;
+    height: 320px;
+    background-image: url('/img/3.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
+    z-index: -999px;
+}
+@media screen and (max-width: 600px) {
+    .paralax-container-two{
+        width: 100%;
+        height: 150px;
+    }
+  }
+.paralax-content-two{
+    padding: 50px;
+    text-align: center;
+}
+.paralax-content-two h1{
+    color: rgb(0, 0, 0) !important;
+}
+.paralax-content-two h2{
+    color: rgb(0, 0, 0) !important;
+    font-size: medium !important;  
+}
+/* paralax two content is end here */
+
+/* start paralax content Three */
+
+.paralax-container-three{
+    width: 100%;
+    height: 320px;
+    background-image: url('/img/paralax-3.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
+    z-index: -999px;
+}
+@media screen and (max-width: 600px) {
+    .paralax-container-three{
+        width: 100%;
+        height: 150px;
+    }
+  }
+.paralax-content-three{
+    padding: 50px;
+    text-align: center;
+}
+.paralax-content-three h1{
+    color: rgb(253, 251, 251) !important;
+}
+.paralax-content-three h2{
+    color: rgb(255, 255, 255) !important;
+    font-size: medium !important;  
+}
+/* paralax three content is end here */
+
+/* gallery section is start here */
+@media screen and (max-width: 568px) {
+    #mobile-block1{
+        display: none;
+    }
+    #mobile-block2{
+        display: none;
+    }
+  }
+  #g-img:hover{
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+    box-shadow: 1px 1px 5px #999;
+    opacity: 0.9;
+    transition: 0.2s all ease-out;
+  }
+  /* gallery Sections is end here */
+  
+  /* Paralax content four is Start here */
+
+  .paralax-container-four{
+    width: 100%;
+    height: 320px;
+    background-image: url('/img/paralax-four...o.jpg');
+    
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
+    z-index: -999px;
+}
+.paralax-content-four{
+    padding: 50px;
+    text-align: center;
+
+}
+.paralax-content-four h1{
+    color: rgb(248, 244, 244) !important;
+}
+.paralax-content-four h2{
+    color: rgb(247, 239, 239) !important;
+    font-size: medium !important;
+}
+@media screen and (max-width: 600px) {
+    .paralax-container-four{
+        width: 100%;
+        height: 150px;
+    }
+  }
+
+  /* Paralax content four is End here */
+
+  /* Team Profile section is start Here */
+#team-profile-wrapper{
+    width: 100%;
+    margin-top: 100px;
+}
+ .p-img{
+    width: 40%;
+    border-radius: 50%;
+  } 
+  .p-img:hover{
+    scale: 1.02;
+    opacity: 0.9;
+    transition: 0.2s all ease-out;
+  }
+  /* Team Profile section is end Here */
+
+  /* Featured plan section is Start here */
+
+#features-plan-wrapper{
+    background-color: #f0e8e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#features-plan-1{
+    background-color:  #5fcca0 ;
+    
+}
+#features-plan-2{
+    background-color: #0a0a0a;
+    color: 
+    #ffffff;
+}
+#features-plan-3{
+    background-color: #cb9bfb;
+}
+#features-plan-4{
+    background-color: #f9fd91;
+    
+}
+
+
+#features-plan-1:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#features-plan-2:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#features-plan-3:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#features-plan-4:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+  /* Featured plan section is End here */
+
+  /* footer section is start here */
+
+#animation-footer {
+  width: 100%; 
+  height: 450px; 
+  margin-top: 30px;
+  background: #080a3c;
+  color: #fff;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+#animation-footer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(/img/footer-animation-img/footer-shape1.png);
+  background-repeat: no-repeat; 
+  object-fit:cover;
+  animation: imgChange 1s linear 1s infinite;
+}
+#animation-footer::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(/img/footer-animation-img/footer-shape2.png);
+  animation: imgChangeTwo 1s linear 1s infinite;
+}
+@keyframes imgChange {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1.3;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes imgChangeTwo {
+  0% {
+    opacity: 1.3;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1.3;
+  }
+}
+/* footer section is end here */
+

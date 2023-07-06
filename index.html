@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#scroll-nav">
+
+    <!-- Navbar sections is Start here! -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary py-1 py-md-2" data-bs-theme="light" id="scroll-nav">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-1 ms-md-5" href="#"><img src="./img/BrandLogo1.png" alt="#" class="brand-logo" ></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+            <li class="nav-item ms-sm-3">
+              <a class="nav-link active fs-5 fw-medium" aria-current="page" href="#home-scroll">Home</a>
+            </li>
+            <li class="nav-item ms-sm-3">
+              <a class="nav-link fs-5 fw-medium" href="#scroll-blog">Blog</a>
+            </li>
+            <li class="nav-item dropdown ms-sm-3">
+              <a class="nav-link dropdown-toggle fs-5 fw-medium" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item fs-5 fw-medium" href="#home-scroll">Home</a></li>
+                <li><a class="dropdown-item fs-5 fw-medium" href="#animation-footer">Adress</a></li>
+                <li><a class="dropdown-item fs-5 fw-medium" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item ms-sm-3">
+              <a class="nav-link fs-5 fw-medium" href="#team-profile-wrapper">About</a>
+            </li>
+            <li class="nav-item ms-sm-3">
+              <a class="nav-link fs-5 fw-medium" href="#animation-footer">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex me-5" role="search">
+            <input class="form-control me-5 fw-medium border-black d-none d-sm-block" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-dark fs-5 fw-medium d-none d-sm-block border-0 me-5" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg></button>        
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar sections is End here! -->
+ 
+    <!-- Carousel Sections is Start Here -->
+
+    <!-- Carousel body -->
+    <div class="slider-section">
+
+      <!-- Carousel Items -->
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        
+        <div class="carousel-inner">
+          <div class="carousel-item active c-item">
+            <img src="./img/slidesddr-1.jpg" class="d-block w-100 c-img" alt="#">
+            <div class="carousel-caption top-0 mt-lg-5 d-block d-flex justify-content-center align-items-center">
+              <div class="carusol-wrapper">
+                <p class="  fs-4 d-none d-md-block">Discover web-solvings</p>
+              <p class="d-block d-md-none fs-5 ">A best web-development solutions agency lets try...</p>
+              <h1 class="display-2 fw-bolder text-capitalize d-none d-md-block">A best web-development solutions agency</h1>
+              <button class="btn btn-primary ps-xl-5 pe-xl-5 fs-md-5 mt-md-4 py-md-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img src="/img/3.jpg" class="d-block w-100 c-img" alt="#">
+            <div class="carousel-caption top-0 mt-lg-5 d-block d-flex justify-content-center align-items-center">
+              <div class="carusol-wrapper">
+                <p class="fs-4 d-none d-md-block" >Make better business</p>
+              <p class="d-block d-md-none fs-5">Lets change your business with web-solvings</p>
+              <h1 class="display-2 fw-bolder text-capitalize d-none d-md-block">Lets change your business with web-solvings</h1>
+              <button class="btn btn-primary ps-xl-5 pe-xl-5 fs-md-5 mt-md-4 py-md-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img src="/img/4.jpg" class="d-block w-100 c-img" alt="#">
+            <div class="carousel-caption top-0 mt-lg-5 d-block d-flex justify-content-center align-items-center">
+              <div class="carusol-wrapper">
+                <p class="fs-4 d-none d-md-block">Try more better</p>
+              <p class="d-block d-md-none fs-5">Work best and change your mission lets go...</p>
+              <h1 class="display-2 fw-bolder text-capitalize d-none d-md-block">work best and change your mission lets go...</h1>
+              <button class="btn btn-primary ps-xl-5 pe-xl-5 fs-md-5 mt-md-4 py-md-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</button>
+              </div>
+            </div> 
+          </div>
+        </div>
+        <!-- Carousel button -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <!-- Carousel indicator -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <!-- CarouselIndicator -->
+      </div>
+    </div>
+    <!-- Carousel Sections is End Here -->
+
+  <!-- Modal section is start here -->
+
+<div class="container-fluid">
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Email:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Message:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-success">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+
+  <!-- Modal Section is End here -->
+
+  <!-- services section is Start here.. -->
+   
+
+  <div class="container mt-4 mt-md-5 d-flex justify-content-center align-content-center" id="home-scroll">
+    <p class="fs-2 fs-md-4">Any brand any business</p>
+   </div>
+   <div class="d-flex justify-content-center align-content-center">
+    <p class="text-center">Myway is provided and maintained by Awerest - Envato elite author, thank you for your <br> confidence in our ability to serve you.</p>
+   </div>
+   <div class="container d-flex justify-content-center align-content-center pb-md-5">
+    <img src="./img/services-01.jpg" class="img-fluid" alt="#" width="100%" height="auto">
+   </div>
+   <!-- Services Sections is end here.. -->
+
+   <!-- Card Section is Start here -->
+  <div class="container mt-5 my-md-5">
+    <div class="card-group text-center">
+      <div class="card mx-md-4">
+        <img src="./img/card-img/card-img-1.jpg" class="card-img-top" alt="..." width="150px" id="card-img">
+        <div class="card-body">
+          <h5 class="card-title">Money Momentum</h5>
+          <p class="card-text">Myway easily and efficiently scales your project with one code base, from phones to tablets to desktops.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card mx-md-4">
+        <img src="./img/card-img/card-img-2.jpg" class="card-img-top" alt="..." id="card-img">
+        <div class="card-body">
+          <h5 class="card-title">Retina ready</h5>
+          <p class="card-text">Myway easily and efficiently scales your project with one code base, from phones to tablets to desktops.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card mx-md-4">
+        <img src="./img/card-img/card-img-3.jpg" class="card-img-top" alt="..." id="card-img">
+        <div class="card-body">
+          <h5 class="card-title">Well Documented</h5>
+          <p class="card-text">Packed in one nice document that comes with download. Saves your time so you can be dedicated to your work.</p>
+          
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <!-- Card Sections is end here -->
+
+    <!-- paralax one container is Strat here -->
+<div class="paralax-container">
+  <div class="paralax-content">
+    <h1 class="display-2 fw-bold d-none d-md-block">Works & Features</h1>
+    <h1 class="display-5 d-block d-md-none">Works & Features</h1>
+    <h2 class="fs-md-4 fw-md-bold">Lorem ipsum dolor, sit amet <span class="d-none d-md-block">consectetur adipisicing elit. Nisi est explicabo voluptatem.</span>impedit illo mangnam.</h2>
+    <h2 class="d-none d-md-block">How awesome it is?</h2>
+  </div> 
+</div>
+
+<!-- Paralax one Container is End here -->
+
+<!-- Service two section Start here -->
+
+<div class="container mt-4 mt-md-5 d-flex justify-content-center align-content-center" id="scroll-blog">
+  <p class="fs-2 fs-md-4">New look</p>
+ </div>
+ <div class="d-flex justify-content-center align-content-center">
+  <p class="text-center ">ur old Myway is being torched in a large blaze of glory. We update Myway every now and then to follow <br ><span class="d-none d-md-block">trends, you can always redownload files for free and refresh your website.</span></p>
+ </div>
+ <div class="container d-flex justify-content-center align-content-center pb-md-5">
+  <img src="./img/service 2.jpg" class="img-fluid" alt="#" width="100%" height="auto">
+ </div>
+<!-- Service two section is End Here -->
+
+<!-- Paralax two section is start here -->
+
+    <div class="paralax-container-two">
+      <div class="paralax-content-two">
+        <h1 class="display-2 d-none d-md-block">Works & Features</h1>
+        <h1 class="display-5 d-block d-md-none">Works & Features</h1>
+        <h2 class="fs-md-4 fw-md-bold d-none d-md-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi est explicabo voluptatem.impedit illo mangnam.</h2>
+        <h2>How awesome it is?</h2>
+      </div>
+    </div>
+    
+<!-- Start-first-product-showcase-bar-->
+
+<div class="product-showcase-one container-fluid mt-4">
+  <div class="container d-md-flex w-100">
+    <div class="product-details w-100 w-md-50 d-md-flex align-items-center justify-content-center">
+      <div class="showcase-wrapper">
+        <h1 class="display-5">Parallax Effect</h1>
+      <h6 class="mt-md-4">Packed with smooth scroll</h6>
+      <p class="mt-md-4">Easily to style, change fonts, colors, sizes in few clicks. Non experienced users will find Myway very easy to customize. Myway is the place to stay when you want it your way. Move sections up and down, arrange elements by your needs and change layout. We have included responsive video embeds and used just Google fonts, you can change to any other in a minute. We also have working contact form.</p>
+      <button class="btn btn-outline-primary mt-md-3">START-CREATING</button>
+      </div>
+    </div>
+    <div class="img-container w-100 w-md-50 mt-5 ms-0 ms-md-5 d-md-flex align-items-center justify-content-center">
+      <img src="img/product-showcase-1.jpg" alt="#" class="img-fluid">
+    </div>
+  </div>
+</div>
+
+<!-- End-first-product-showcase-bar-->
+
+<!-- Start-second-product-showcase-bar-->
+
+<div class="product-showcase-one container-fluid mt-4">
+  <div class="container d-md-flex w-100">   
+    <div class="img-container w-100 w-md-50 mt-5 ms-0 ">
+      <img src="img/product-showcase-two.jpg" alt="#" class="img-fluid">
+    </div>
+    <div class="product-details w-100 w-md-50 d-md-flex align-items-center justify-content-center">
+      <div class="showcase-wrapper">
+        <h1 class="display-5 mt-5">Tons of <br>
+          Components</h1>
+      <h6 class="mt-md-4">Designed for Everyone, Everywhere.</h6>
+      <p class="mt-md-4">Bootstrap is the most popular front-end framework for developing responsive, mobile first projects on the web. Over a dozen reusable components built to provide iconography, dropdowns, input groups, navigation, alerts, and much more. Global CSS settings, fundamental HTML elements styled and enhanced with extensible classes, and an advanced grid system.</p>
+      <button class="btn btn-outline-primary mt-md-3">GET-MYWAY</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- End-second-product-showcase-bar-->
+
+<!-- Start-Third-product-showcase-bar-->
+
+<div class="product-showcase-one container-fluid mt-4">
+  <div class="container d-md-flex w-100">
+    <div class="product-details w-100 w-md-50 d-md-flex align-items-center justify-content-center">
+      <div class="showcase-wrapper">
+        <h1 class="display-5">Supereasy <br>
+          to customize</h1>
+          <h6 class="mt-md-4">Made for folks of all skill levels and projects of all sizes.</h6>
+      <p class="mt-md-4 ">botstrap makes front-end web development faster and easier. It's made for folks of all skill levels, devices of all shapes, and projects of all sizes. Beside ours, with Bootstrap, you get extensive and beautiful documentation with hundreds of live examples, code snippets, and more.</p>
+      <button class="btn btn-outline-primary mt-md-3">START-TODAY</button>
+      </div>
+    </div>
+    <div class="img-container w-100 w-md-50 mt-5 ms-0 ms-md-5 d-md-flex align-items-center justify-content-center">
+      <img src="img/product-show-case-3.jpg" alt="#" class="img-fluid">
+    </div>
+  </div>
+</div>
+<!-- End-Third-product-showcase-bar-->
+
+<!-- Parlax three section is Start here -->
+
+<div class="paralax-container-three">
+  <div class="paralax-content-three">
+    <h1 class="display-2 fw-bold">Gallery</h1>
+    <h2 class="fs-md-4 fw-md-bold d-none d-md-block">Image, YouTube, Vimeo and Instagram options</h2>
+    <h2>How awesome it is?</h2>
+  </div> 
+</div>
+<!-- Parlax three section is End here -->
+
+<!-- Gallery section Start here -->
+
+<!-- Mobile format -->
+<div class="container-fluid d-sm-none">
+  <div class="card-group">
+    <div class="card border-0">
+      <img src="/img/gallery Img/5.jpg" class="card-img-top" id="g-img">
+    </div>
+    <div class="card border-0">
+      <img src="/img/gallery Img/2.jpg" class="card-img-top" id="g-img">
+    </div>
+    <div class="card border-0">
+      <img src="img/gallery Img/3.jpg" class="card-img-top" id="g-img">
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid d-sm-none">
+  <div class="card-group">
+    <div class="card border-0">
+      <img src="/img/gallery Img/4.jpg" class="card-img-top" id="g-img">
+    </div>
+    <div class="card border-0">
+      <img src="/img/gallery Img/1.jpg" class="card-img-top" id="g-img">
+    </div>
+    <div class="card border-0">
+      <img src="img/gallery Img/6.jpg" class="card-img-top" id="g-img">
+    </div>
+  </div>
+</div>
+
+<!-- mobile format end  -->
+
+<!-- Dextop format is start -->
+
+<div class="card-group" id="mobile-block1">
+  <div class="card border-0">
+    <img src="/img/gallery Img/5.jpg" class="card-img-top" id="g-img">
+  </div>
+  <div class="card border-0">
+    <img src="/img/gallery Img/2.jpg" class="card-img-top" id="g-img">
+  </div>
+  <div class="card border-0">
+    <img src="img/gallery Img/3.jpg" class="card-img-top" id="g-img">
+  </div>
+</div>
+
+<div class="card-group" id="mobile-block2">
+  <div class="card border-0">
+    <img src="/img/gallery Img/4.jpg" class="card-img-top" id="g-img">
+  </div>
+  <div class="card border-0">
+    <img src="/img/gallery Img/1.jpg" class="card-img-top" id="g-img">
+  </div>
+  <div class="card border-0">
+    <img src="img/gallery Img/6.jpg" class="card-img-top" id="g-img">
+  </div>
+</div>
+<!-- dextop format is end here -->
+
+<!-- Gallery section is end here -->
+
+
+<!-- Paralax content four is Start here -->
+<div class="paralax-container-four">
+  <div class="container-content-four">
+    <div class="paralax-content-four text-center">
+      <h1 class="display-md-3 fw-bold">Awesome, we know.</h1>
+      <h2 class="fs-md-4 fw-md-bold d-none d-md-block">Image, YouTube, Vimeo and Instagram options</h2>
+      <h2>How awesome it is?</h2>
+    </div>
+  </div> 
+</div>
+<!-- Paralax content four is End here -->
+
+<!-- Team Profile section is start Here -->
+
+<div class="container" id="team-profile-wrapper">
+  <div class="card-group">
+    <div class="card border-0">
+      <div class="img-wrap d-flex justify-content-center align-items-center">
+        <img src="/img/team-profile/profile 2.jpg" class="p-img" alt="#">
+      </div>
+      <div class="card-body text-center">
+        <h5 class="card-title">Aleksandar Macanovic</h5>
+        <p class="card-text fw-lighter">Girlfriend, Amiga500, Star Wars, LEGO.</p>
+      </div>   
+    </div>
+    <div class="card border-0">
+      <div class="img-wrap d-flex justify-content-center align-items-center">
+        <img src="/img/team-profile/profile 1.jpeg" class="p-img" alt="#">
+      </div>
+      <div class="card-body text-center">
+        <h5 class="card-title">Sanja Sarcevic</h5>
+        <p class="card-text fw-lighter">Books, Boyfriend, Coffee, Music, Wine.</p>
+      </div>    
+    </div>
+    <div class="card border-0">
+      <div class="img-wrap d-flex justify-content-center align-items-center">
+        <img src="/img/team-profile/profile 3.jpg" class="p-img" alt="#">
+      </div>
+      <div class="card-body text-center">
+        <h5 class="card-title">Imperial Stormtrooper</h5>
+        <p class="card-text fw-lighter">Job, PopCorn, Cognac, Legendary, High Five.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Team profile section is end here -->
+
+
+<!-- Featured plan section is Start here -->
+
+<div class="container-fluid mt-5 my-md-5" id="services-scroll">
+  <div class="card-group px-md-5">
+
+    <div class="card mx-md-1 border-0 p-3">
+      <div class="card-body py-4 rounded-4" id="features-plan-1">
+        <p class="fw-bold">STRATEGY</p>
+        <p class="card-title display-6 fw-bold">Money generate</p>
+        <p class="card-text fw-medium">Tract premium helps you start saver investment insight covering. </p>
+        <p class="card-text"><small class="fw-medium">3 Yrs CAGR</small></p>
+        <div class="card-footer-area d-flex justify-content-between align-items-center pe-2">
+          <p class="fw-bolder display-6">7.20%</p>
+          <button class="btn btn-dark d-flex justify-content-center align-items-center p-3"><i class="fa-solid fa-arrow-right"></i></button>   
+        </div>
+      </div>
+    </div>
+    <div class="card mx-md-1 border-0 p-3">
+      <div class="card-body py-4 rounded-4" id="features-plan-2">
+        <p class="fw-bold">PLAN</p>
+        <p class="card-title display-6 fw-bold">Long-Term</p>
+        <p class="card-text fw-medium">Create a vision.To get started, imagine your dream life. come with me </p>
+        <p class="card-text"><small class="fw-medium">25 Yrs CAGR</small></p>
+        <div class="card-footer-area d-flex justify-content-between align-items-center pe-2">
+          <p class="fw-bolder display-6">14.20%</p>
+          <button class="btn btn-light d-flex justify-content-center align-items-center p-3"><i class="fa-solid fa-arrow-right" style="color: #000205;"></i></button>   
+        </div>
+      </div>
+    </div>
+
+    <div class="card mx-md-1 border-0 p-3">
+      <div class="card-body py-4 rounded-4" id="features-plan-3">
+        <p class="fw-bold">STRATEGY</p>
+        <p class="card-title display-6 fw-bold">Focussed</p>
+        <p class="card-text fw-medium">be focussed Life planing, however  ,can serve as a roadmap or guide </p>
+        <p class="card-text"><small class="fw-medium">1 yr returns</small></p>
+        <div class="card-footer-area d-flex justify-content-between align-items-center pe-2">
+          <p class="fw-bolder display-6">11.20%</p>
+          <button class="btn btn-dark d-flex justify-content-center align-items-center p-3"><i class="fa-solid fa-arrow-right"></i></button>   
+        </div>
+      </div>
+    </div>
+    <div class="card mx-md-1 border-0 p-3">
+      <div class="card-body py-4 rounded-4" id="features-plan-4">
+        <p class="fw-bold">PLANS</p>
+        <p class="card-title display-6 fw-bold">Fixed Income</p>
+        <p class="card-text fw-medium">Get multiple benifits, and lumpsum option & Guaranteed</p>
+        <p class="card-text"><small class="fw-medium">3 Yrs CAGR</small></p>
+        <div class="card-footer-area d-flex justify-content-between align-items-center pe-2">
+          <p class="fw-bolder display-6">7.20%</p>
+          <button class="btn btn-dark d-flex justify-content-center align-items-center p-3"><i class="fa-solid fa-arrow-right"></i></button>   
+        </div>
+      </div>
+    </div>
+</div>
+
+</div>
+<!-- Featured plan section is End Here -->
+
+<!-- Quotes Section is start here -->
+<div class="container-fluid mt-5 px-md-5" id="scroll-cheek">
+  <div class="card-group">
+    <div class="card border-0">
+      <div class="card-body text-center">
+        <figure>
+          <blockquote class="blockquote">
+            <p class="fw-normal">I don't care that they stole my idea. I care that they don't have any of their own.</p>
+          </blockquote>
+          <figcaption class="blockquote-footer mt-3">
+            Nikola Tesla, <cite title="Source Title">Serbian inventor</cite>
+          </figcaption>
+        </figure>
+      </div>   
+    </div>
+    <div class="card border-0">
+      <div class="card-body text-center">
+        <figure>
+          <blockquote class="blockquote">
+            <p class="fw-normal">If there is anything that a man can do well, I say let him do it. Give him a chance.</p>
+          </blockquote>
+          <figcaption class="blockquote-footer mt-3">
+            Abraham Lincoln, <cite title="Source Title">president</cite>
+          </figcaption>
+        </figure>
+      </div>    
+    </div>
+    <div class="card border-0">
+      <div class="card-body text-center">
+        <figure>
+          <blockquote class="blockquote">
+            <p class="fw-normal">There are no secrets to success. It is the result of preparation, hard work, and learning from failure.</p>
+          </blockquote>
+          <figcaption class="blockquote-footer mt-3">
+            Colin Powell,  <cite title="Source Title"> statesman</cite>
+          </figcaption>
+        </figure>
+      </div>    
+    </div>
+    <div class="card border-0">
+      <div class="card-body text-center">
+        <figure>
+          <blockquote class="blockquote">
+            <p class="fw-normal">If you cannot work with love but only with distaste, it is better that you should leave your work.</p>
+          </blockquote>
+          <figcaption class="blockquote-footer mt-3">
+             Khalil Gibran,  <cite title="Source Title">artist</cite>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Qoutes section is end here -->
+
+<!-- Goole map section is start here -->
+
+<div class="container-fluid mt-5" id="map-container">
+  <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29160.242371739347!2d90.39706707040364!3d23.994707231402703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755dafdd8aa72a1%3A0xe3a23793cb030fdb!2sGazipur!5e0!3m2!1sen!2sbd!4v1688586214384!5m2!1sen!2sbd" width="100%" height="340" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+  
+<!-- Google map section is End here -->
+
+<!-- footer section is Start here -->
+<div id="animation-footer">
+  <footer class="footer text-light" >
+    <div class="container d-flex justify-content-center align-items-center">
+      <div class="row d-flex justify-content-center align-items-center py-5">
+        <div class="col-md-6 mt-4">
+          <h4>About Us</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum libero nec risus porttitor, eget aliquet lectus faucibus.</p>
+          <p class="pe-3 d-none d-md-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita, eius perferendis sapiente eligendi velit laboriosam? </p>
+        </div>
+        <div class="col-md-3 mt-4 d-none d-md-block">
+          <h4 class="">Quick Links</h4>
+          <ul class="list-unstyled">
+            <li><a href="#home-scroll" class="text-decoration-none text-light">Home</a></li>
+            <li><a href="#team-profile-wrapper" class="text-decoration-none text-light">About</a></li>
+            <li><a href="services-scroll" class="text-decoration-none text-light">Services</a></li>
+            <li><a href="#" class="text-decoration-none text-light">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mt-4">
+          <h4>Contact Us</h4>
+          <address>
+            123 Street, City<br>
+            State, Country<br>
+            Phone: +123456789<br>
+            Email: info@example.com
+          </address>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<!-- footer section is end here -->
+
+    <!-- Script file sections -->
+    <script src="./js/bootstrap.bundle.js"></script>
+    <!-- scripts file end -->
+  </body>
+</html>
